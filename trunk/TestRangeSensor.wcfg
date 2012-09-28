@@ -1,0 +1,46 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<wave_config>
+   <wave_state>
+   </wave_state>
+   <db_ref_list>
+      <db_ref path="C:/Project2011/TestRangeSensor_isim_beh.wdb" id="1" type="auto">
+         <top_modules>
+            <top_module name="numeric_std" />
+            <top_module name="std_logic_1164" />
+            <top_module name="std_logic_arith" />
+            <top_module name="std_logic_unsigned" />
+            <top_module name="testrangesensor" />
+         </top_modules>
+      </db_ref>
+   </db_ref_list>
+   <WVObjectSize size="7" />
+   <wvobject fp_name="/testrangesensor/fpgaclk" type="logic" db_ref_id="1">
+      <obj_property name="ElementShortName">fpgaclk</obj_property>
+      <obj_property name="ObjectShortName">fpgaclk</obj_property>
+   </wvobject>
+   <wvobject fp_name="/testrangesensor/pulse" type="logic" db_ref_id="1">
+      <obj_property name="ElementShortName">pulse</obj_property>
+      <obj_property name="ObjectShortName">pulse</obj_property>
+   </wvobject>
+   <wvobject fp_name="/testrangesensor/triggerout" type="logic" db_ref_id="1">
+      <obj_property name="ElementShortName">triggerout</obj_property>
+      <obj_property name="ObjectShortName">triggerout</obj_property>
+   </wvobject>
+   <wvobject fp_name="/testrangesensor/uut/measurer/distance" type="array" db_ref_id="1">
+      <obj_property name="ElementShortName">distance[8:0]</obj_property>
+      <obj_property name="ObjectShortName">distance[8:0]</obj_property>
+      <obj_property name="Radix">UNSIGNEDDECRADIX</obj_property>
+   </wvobject>
+   <wvobject fp_name="/testrangesensor/meters" type="array" db_ref_id="1">
+      <obj_property name="ElementShortName">meters[3:0]</obj_property>
+      <obj_property name="ObjectShortName">meters[3:0]</obj_property>
+   </wvobject>
+   <wvobject fp_name="/testrangesensor/decimeters" type="array" db_ref_id="1">
+      <obj_property name="ElementShortName">decimeters[3:0]</obj_property>
+      <obj_property name="ObjectShortName">decimeters[3:0]</obj_property>
+   </wvobject>
+   <wvobject fp_name="/testrangesensor/centimeters" type="array" db_ref_id="1">
+      <obj_property name="ElementShortName">centimeters[3:0]</obj_property>
+      <obj_property name="ObjectShortName">centimeters[3:0]</obj_property>
+   </wvobject>
+</wave_config>

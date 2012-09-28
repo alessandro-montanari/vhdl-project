@@ -1,0 +1,2 @@
+vhdl isim_temp "Counter.vhd"
+vhdl isim_temp "trigger_generator.vhd"

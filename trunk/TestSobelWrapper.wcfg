@@ -1,0 +1,49 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<wave_config>
+   <wave_state>
+   </wave_state>
+   <db_ref_list>
+      <db_ref path="C:/Project2011/TestSobelWrapper_isim_beh.wdb" id="1" type="auto">
+         <top_modules>
+            <top_module name="numeric_std" />
+            <top_module name="std_logic_1164" />
+            <top_module name="std_logic_arith" />
+            <top_module name="std_logic_unsigned" />
+            <top_module name="testsobelwrapper" />
+            <top_module name="textio" />
+            <top_module name="types" />
+         </top_modules>
+      </db_ref>
+   </db_ref_list>
+   <WVObjectSize size="7" />
+   <wvobject fp_name="/testsobelwrapper/clk" type="logic" db_ref_id="1">
+      <obj_property name="ElementShortName">clk</obj_property>
+      <obj_property name="ObjectShortName">clk</obj_property>
+   </wvobject>
+   <wvobject fp_name="/testsobelwrapper/fsync_in" type="logic" db_ref_id="1">
+      <obj_property name="ElementShortName">fsync_in</obj_property>
+      <obj_property name="ObjectShortName">fsync_in</obj_property>
+   </wvobject>
+   <wvobject fp_name="/testsobelwrapper/rsync_in" type="logic" db_ref_id="1">
+      <obj_property name="ElementShortName">rsync_in</obj_property>
+      <obj_property name="ObjectShortName">rsync_in</obj_property>
+   </wvobject>
+   <wvobject fp_name="/testsobelwrapper/pdata_in" type="array" db_ref_id="1">
+      <obj_property name="ElementShortName">pdata_in[7:0]</obj_property>
+      <obj_property name="ObjectShortName">pdata_in[7:0]</obj_property>
+      <obj_property name="Radix">UNSIGNEDDECRADIX</obj_property>
+   </wvobject>
+   <wvobject fp_name="/testsobelwrapper/fsync_out" type="logic" db_ref_id="1">
+      <obj_property name="ElementShortName">fsync_out</obj_property>
+      <obj_property name="ObjectShortName">fsync_out</obj_property>
+   </wvobject>
+   <wvobject fp_name="/testsobelwrapper/rsync_out" type="logic" db_ref_id="1">
+      <obj_property name="ElementShortName">rsync_out</obj_property>
+      <obj_property name="ObjectShortName">rsync_out</obj_property>
+   </wvobject>
+   <wvobject fp_name="/testsobelwrapper/pdata_out" type="array" db_ref_id="1">
+      <obj_property name="ElementShortName">pdata_out[7:0]</obj_property>
+      <obj_property name="ObjectShortName">pdata_out[7:0]</obj_property>
+      <obj_property name="Radix">UNSIGNEDDECRADIX</obj_property>
+   </wvobject>
+</wave_config>

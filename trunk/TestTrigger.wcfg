@@ -1,0 +1,29 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<wave_config>
+   <wave_state>
+   </wave_state>
+   <db_ref_list>
+      <db_ref path="C:/Project2011/TestTrigger_isim_beh.wdb" id="1" type="auto">
+         <top_modules>
+            <top_module name="std_logic_1164" />
+            <top_module name="std_logic_arith" />
+            <top_module name="std_logic_unsigned" />
+            <top_module name="testtrigger" />
+         </top_modules>
+      </db_ref>
+   </db_ref_list>
+   <WVObjectSize size="3" />
+   <wvobject fp_name="/testtrigger/clk" type="logic" db_ref_id="1">
+      <obj_property name="ElementShortName">clk</obj_property>
+      <obj_property name="ObjectShortName">clk</obj_property>
+   </wvobject>
+   <wvobject fp_name="/testtrigger/triggersig" type="logic" db_ref_id="1">
+      <obj_property name="ElementShortName">triggersig</obj_property>
+      <obj_property name="ObjectShortName">triggersig</obj_property>
+   </wvobject>
+   <wvobject fp_name="/testtrigger/uut/outputcounter" type="array" db_ref_id="1">
+      <obj_property name="ElementShortName">outputcounter[23:0]</obj_property>
+      <obj_property name="ObjectShortName">outputcounter[23:0]</obj_property>
+      <obj_property name="Radix">UNSIGNEDDECRADIX</obj_property>
+   </wvobject>
+</wave_config>

@@ -1,0 +1,60 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<wave_config>
+   <wave_state>
+   </wave_state>
+   <db_ref_list>
+      <db_ref path="C:/Project2011/TestNumberDisplayer_isim_beh.wdb" id="1" type="auto">
+         <top_modules>
+            <top_module name="numeric_std" />
+            <top_module name="std_logic_1164" />
+            <top_module name="std_logic_arith" />
+            <top_module name="std_logic_unsigned" />
+            <top_module name="testnumberdisplayer" />
+            <top_module name="textio" />
+         </top_modules>
+      </db_ref>
+   </db_ref_list>
+   <WVObjectSize size="9" />
+   <wvobject fp_name="/testnumberdisplayer/clk" type="logic" db_ref_id="1">
+      <obj_property name="ElementShortName">clk</obj_property>
+      <obj_property name="ObjectShortName">clk</obj_property>
+   </wvobject>
+   <wvobject fp_name="/testnumberdisplayer/fsync_in" type="logic" db_ref_id="1">
+      <obj_property name="ElementShortName">fsync_in</obj_property>
+      <obj_property name="ObjectShortName">fsync_in</obj_property>
+   </wvobject>
+   <wvobject fp_name="/testnumberdisplayer/rsync_in" type="logic" db_ref_id="1">
+      <obj_property name="ElementShortName">rsync_in</obj_property>
+      <obj_property name="ObjectShortName">rsync_in</obj_property>
+   </wvobject>
+   <wvobject fp_name="/testnumberdisplayer/data_in" type="array" db_ref_id="1">
+      <obj_property name="ElementShortName">data_in[7:0]</obj_property>
+      <obj_property name="ObjectShortName">data_in[7:0]</obj_property>
+   </wvobject>
+   <wvobject fp_name="/testnumberdisplayer/uut/rowscounterout" type="array" db_ref_id="1">
+      <obj_property name="ElementShortName">rowscounterout[9:0]</obj_property>
+      <obj_property name="ObjectShortName">rowscounterout[9:0]</obj_property>
+      <obj_property name="Radix">UNSIGNEDDECRADIX</obj_property>
+   </wvobject>
+   <wvobject fp_name="/testnumberdisplayer/uut/colscounterout" type="array" db_ref_id="1">
+      <obj_property name="ElementShortName">colscounterout[9:0]</obj_property>
+      <obj_property name="ObjectShortName">colscounterout[9:0]</obj_property>
+      <obj_property name="Radix">UNSIGNEDDECRADIX</obj_property>
+   </wvobject>
+   <wvobject fp_name="/testnumberdisplayer/uut/fontaddress" type="array" db_ref_id="1">
+      <obj_property name="ElementShortName">fontaddress[6:0]</obj_property>
+      <obj_property name="ObjectShortName">fontaddress[6:0]</obj_property>
+      <obj_property name="UseCustomSignalColor">true</obj_property>
+      <obj_property name="CustomSignalColor">#00ffff</obj_property>
+   </wvobject>
+   <wvobject fp_name="/testnumberdisplayer/uut/fontdataout" type="array" db_ref_id="1">
+      <obj_property name="ElementShortName">fontdataout[0:7]</obj_property>
+      <obj_property name="ObjectShortName">fontdataout[0:7]</obj_property>
+      <obj_property name="UseCustomSignalColor">true</obj_property>
+      <obj_property name="CustomSignalColor">#00ffff</obj_property>
+   </wvobject>
+   <wvobject fp_name="/testnumberdisplayer/data_out" type="array" db_ref_id="1">
+      <obj_property name="ElementShortName">data_out[7:0]</obj_property>
+      <obj_property name="ObjectShortName">data_out[7:0]</obj_property>
+   </wvobject>
+</wave_config>
