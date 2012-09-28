@@ -1,0 +1,39 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<wave_config>
+   <wave_state>
+   </wave_state>
+   <db_ref_list>
+      <db_ref path="C:/Project2011/TestDistanceMeasurer_isim_beh.wdb" id="1" type="auto">
+         <top_modules>
+            <top_module name="numeric_std" />
+            <top_module name="std_logic_1164" />
+            <top_module name="std_logic_arith" />
+            <top_module name="std_logic_unsigned" />
+            <top_module name="testdistancemeasurer" />
+         </top_modules>
+      </db_ref>
+   </db_ref_list>
+   <WVObjectSize size="5" />
+   <wvobject fp_name="/testdistancemeasurer/clk" type="logic" db_ref_id="1">
+      <obj_property name="ElementShortName">clk</obj_property>
+      <obj_property name="ObjectShortName">clk</obj_property>
+   </wvobject>
+   <wvobject fp_name="/testdistancemeasurer/trigg" type="logic" db_ref_id="1">
+      <obj_property name="ElementShortName">trigg</obj_property>
+      <obj_property name="ObjectShortName">trigg</obj_property>
+   </wvobject>
+   <wvobject fp_name="/testdistancemeasurer/pulse" type="logic" db_ref_id="1">
+      <obj_property name="ElementShortName">pulse</obj_property>
+      <obj_property name="ObjectShortName">pulse</obj_property>
+   </wvobject>
+   <wvobject fp_name="/testdistancemeasurer/distance" type="array" db_ref_id="1">
+      <obj_property name="ElementShortName">distance[8:0]</obj_property>
+      <obj_property name="ObjectShortName">distance[8:0]</obj_property>
+      <obj_property name="Radix">UNSIGNEDDECRADIX</obj_property>
+   </wvobject>
+   <wvobject fp_name="/testdistancemeasurer/uut/counterpulseout" type="array" db_ref_id="1">
+      <obj_property name="ElementShortName">counterpulseout[21:0]</obj_property>
+      <obj_property name="ObjectShortName">counterpulseout[21:0]</obj_property>
+      <obj_property name="Radix">UNSIGNEDDECRADIX</obj_property>
+   </wvobject>
+</wave_config>

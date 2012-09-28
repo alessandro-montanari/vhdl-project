@@ -1,0 +1,7 @@
+work	"cache_system.vhd"
+work	"counter.vhd"
+work	"double_fifo_linebuffer.vhd"
+work	"edge_sobel_wrapper.vhd"
+work	"fifo_linebuffer.vhd"
+work	"sobel_kernel.vhd"
+work	"sync_signals_delayer.vhd"

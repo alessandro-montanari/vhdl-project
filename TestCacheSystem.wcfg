@@ -1,0 +1,89 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<wave_config>
+   <wave_state>
+   </wave_state>
+   <db_ref_list>
+      <db_ref path="C:/Project2011/TestCacheSystem_isim_beh.wdb" id="1" type="auto">
+         <top_modules>
+            <top_module name="numeric_std" />
+            <top_module name="std_logic_1164" />
+            <top_module name="std_logic_arith" />
+            <top_module name="std_logic_unsigned" />
+            <top_module name="testcachesystem" />
+            <top_module name="textio" />
+            <top_module name="types" />
+         </top_modules>
+      </db_ref>
+   </db_ref_list>
+   <WVObjectSize size="15" />
+   <wvobject fp_name="/testcachesystem/clk" type="logic" db_ref_id="1">
+      <obj_property name="ElementShortName">clk</obj_property>
+      <obj_property name="ObjectShortName">clk</obj_property>
+   </wvobject>
+   <wvobject fp_name="/testcachesystem/fsync_in" type="logic" db_ref_id="1">
+      <obj_property name="ElementShortName">fsync_in</obj_property>
+      <obj_property name="ObjectShortName">fsync_in</obj_property>
+   </wvobject>
+   <wvobject fp_name="/testcachesystem/rsync_in" type="logic" db_ref_id="1">
+      <obj_property name="ElementShortName">rsync_in</obj_property>
+      <obj_property name="ObjectShortName">rsync_in</obj_property>
+   </wvobject>
+   <wvobject fp_name="/testcachesystem/pdata_in" type="array" db_ref_id="1">
+      <obj_property name="ElementShortName">pdata_in[7:0]</obj_property>
+      <obj_property name="ObjectShortName">pdata_in[7:0]</obj_property>
+      <obj_property name="Radix">UNSIGNEDDECRADIX</obj_property>
+   </wvobject>
+   <wvobject fp_name="/testcachesystem/fsync_out" type="logic" db_ref_id="1">
+      <obj_property name="ElementShortName">fsync_out</obj_property>
+      <obj_property name="ObjectShortName">fsync_out</obj_property>
+   </wvobject>
+   <wvobject fp_name="/testcachesystem/rsync_out" type="logic" db_ref_id="1">
+      <obj_property name="ElementShortName">rsync_out</obj_property>
+      <obj_property name="ObjectShortName">rsync_out</obj_property>
+   </wvobject>
+   <wvobject fp_name="/testcachesystem/pdata_out1" type="array" db_ref_id="1">
+      <obj_property name="ElementShortName">pdata_out1[7:0]</obj_property>
+      <obj_property name="ObjectShortName">pdata_out1[7:0]</obj_property>
+      <obj_property name="Radix">UNSIGNEDDECRADIX</obj_property>
+   </wvobject>
+   <wvobject fp_name="/testcachesystem/pdata_out2" type="array" db_ref_id="1">
+      <obj_property name="ElementShortName">pdata_out2[7:0]</obj_property>
+      <obj_property name="ObjectShortName">pdata_out2[7:0]</obj_property>
+      <obj_property name="Radix">UNSIGNEDDECRADIX</obj_property>
+   </wvobject>
+   <wvobject fp_name="/testcachesystem/pdata_out3" type="array" db_ref_id="1">
+      <obj_property name="ElementShortName">pdata_out3[7:0]</obj_property>
+      <obj_property name="ObjectShortName">pdata_out3[7:0]</obj_property>
+      <obj_property name="Radix">UNSIGNEDDECRADIX</obj_property>
+   </wvobject>
+   <wvobject fp_name="/testcachesystem/pdata_out4" type="array" db_ref_id="1">
+      <obj_property name="ElementShortName">pdata_out4[7:0]</obj_property>
+      <obj_property name="ObjectShortName">pdata_out4[7:0]</obj_property>
+      <obj_property name="Radix">UNSIGNEDDECRADIX</obj_property>
+   </wvobject>
+   <wvobject fp_name="/testcachesystem/pdata_out5" type="array" db_ref_id="1">
+      <obj_property name="ElementShortName">pdata_out5[7:0]</obj_property>
+      <obj_property name="ObjectShortName">pdata_out5[7:0]</obj_property>
+      <obj_property name="Radix">UNSIGNEDDECRADIX</obj_property>
+   </wvobject>
+   <wvobject fp_name="/testcachesystem/pdata_out6" type="array" db_ref_id="1">
+      <obj_property name="ElementShortName">pdata_out6[7:0]</obj_property>
+      <obj_property name="ObjectShortName">pdata_out6[7:0]</obj_property>
+      <obj_property name="Radix">UNSIGNEDDECRADIX</obj_property>
+   </wvobject>
+   <wvobject fp_name="/testcachesystem/pdata_out7" type="array" db_ref_id="1">
+      <obj_property name="ElementShortName">pdata_out7[7:0]</obj_property>
+      <obj_property name="ObjectShortName">pdata_out7[7:0]</obj_property>
+      <obj_property name="Radix">UNSIGNEDDECRADIX</obj_property>
+   </wvobject>
+   <wvobject fp_name="/testcachesystem/pdata_out8" type="array" db_ref_id="1">
+      <obj_property name="ElementShortName">pdata_out8[7:0]</obj_property>
+      <obj_property name="ObjectShortName">pdata_out8[7:0]</obj_property>
+      <obj_property name="Radix">UNSIGNEDDECRADIX</obj_property>
+   </wvobject>
+   <wvobject fp_name="/testcachesystem/pdata_out9" type="array" db_ref_id="1">
+      <obj_property name="ElementShortName">pdata_out9[7:0]</obj_property>
+      <obj_property name="ObjectShortName">pdata_out9[7:0]</obj_property>
+      <obj_property name="Radix">UNSIGNEDDECRADIX</obj_property>
+   </wvobject>
+</wave_config>
